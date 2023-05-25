@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- <title>TITTLE</title> -->
+</head>
+<body>
+
+    <div class='parent'>
+        <div class='child'>
+        
+            <!-- Luas -->
+
+            <!-- Header -->
+            <div class="header">
+                <h1 class="title" >Luas Persegi</h1>
+            </div>
+            
+            <!-- Body -->
+            <div class="body">
+                <img align="center" src="assets/persegi.jpg" alt="persegi">
+                <p class="text-left">Rumus luas persegi yaitu :</p>
+                <p><strong>L = S x S</strong></p>
+                <p class="text-left">Di mana :<br/>L = Luas<br/>S = Sisi</p>
+            </div>
+
+            <!-- Footer -->
+            <hr>
+            <div class="Footer">
+                <h2>Hitung Luas Persegi</h2>
+                <input class="nilai-l" name="nilai-l" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
+                
+                <!-- Output ??? -->
+                <div class="output-l" name="output-l">
+                    <p class="text-left">L = S x S <br>
+                        L = <span id="rumus-l"></span><br>
+                        L = <span id="hasil-l"></span>
+                    </p>
+                </div>
+                
+                <div>
+                    <button class="btn-hitung-l" name="hitungl" onclick="hitungl()">Hitung</button>
+                    <p class="text-right">
+                        <input class="btn-reset btn-warning" type="reset" name="reset" onclick="resetLuas(0)"></input>
+                    </p>               
+                </div>
+            </div>
+            </div>
+            <div class='child'>
+            
+            <!-- Keliling -->
+
+            <!-- Header -->
+            <div class="header">
+                <h1 class="title" >Keliling Persegi</h1>
+            </div>
+            
+            <!-- Body -->
+            <div class="body">
+                <img align="center" src="assets/persegi.jpg" alt="persegi">
+                <p class="text-left">Rumus luas Keliling yaitu :</p>
+                <p><strong>K = 4 x S</strong></p>
+                <p class="text-left">Di mana :<br/>K = Keliling<br/>S = Sisi</p>
+            </div>
+
+            <!-- Footer -->
+            <hr>
+            <div class="Footer">
+                <h2>Hitung Keliling Persegi</h2>
+                <input class="nilai-k" name="nilai-k" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
+                
+                <!-- Output ??? -->
+                <div class="output-k" name="output-k">
+                    <p class="text-left">L = S x S <br>
+                        L = <span id="rumus-k"></span><br>
+                        L = <span id="hasil-k"></span>
+                    </p>
+                </div>
+
+                <div>
+                    <button class="btn-hitung-k" name="hitungk" onclick="hitungk()">Hitung</button>
+                    <p class="text-right">
+                        <input class="btn-reset btn-warning" type="reset" name="reset" onclick="resetLuas(0)"></input>
+                    </p>               
+                </div>
+            </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>   
+</body>
+</html>

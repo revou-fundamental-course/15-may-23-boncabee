@@ -1,0 +1,88 @@
+* {
+    font: Arial, sans-serif;
+}
+/* #panel-center {
+    text-align:center;
+    width: 325px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px #2980b9, 0px 10px 15px rgba(0, 0, 0, 0.2);
+} */
+.parent {
+    padding: 5%;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    margin: 20px 20px auto;
+    width: 350px;
+    box-shadow: 0px 4px #2980b9, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+.header {
+	color: #fff !important;
+	background-color: #2980b9 !important;
+	padding: 25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.body {
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+}
+.output-l, .output-k{
+    margin-left: 15px;
+    display: none;
+}
+.nilai-l, .nilai-k {
+    padding: 5px;
+}
+.nilai-l:focus, .nilai-k:focus {
+    border-color: #2980b9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.btn-hitung-l, .btn-hitung-k {
+    color: white;
+    background-color: #2980b9;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 6px;
+    border-color: #2980b9;
+    border-width: 1px;
+}
+.btn-hitung-l:hover, .btn-hitung-k:hover {
+	color: #2980b9;
+	background-color: #ffffff;
+	border-color: #2980b9;
+}
+.btn-reset {
+    color: white;
+    background-color: #e6b30f;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 6px;
+    border-color: #e6b30f;
+    border-width: 1px;
+}
+.btn-reset:hover {
+	color: #f0ad4e;
+	background-color: #ffffff;
+	border-color: #eea236;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}

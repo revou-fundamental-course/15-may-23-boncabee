@@ -1,8 +1,8 @@
 
 // fungsi hitung luas dari input
 function hitungl(){
-    var sisil = document.getElementsByClassName("nilai-l").Value;
-    var hasill = document.getElementsByClassName("output-l");
+    var sisil = document.getElementsByClassName("sisi-luas").Value;
+    var hasill = document.getElementsByClassName("output_luas");
     const resultSquare = sisil*sisil
     const fixedLuasSquare = resultSquare.toFixed(2);
 
@@ -14,8 +14,8 @@ function hitungl(){
 
 // fungsi hitung keliling dari input
 function hitungk(){
-    var sisik = document.getElementsByClassName("nilai-k").Value;
-    var hasilk = document.getElementsByClassName("output-k");
+    var sisik = document.getElementsByClassName("sisi-keliling").Value;
+    var hasilk = document.getElementsByClassName("output_keliling");
 
     // print hasil keliling
     document.getElementsByClassName("rumus-k").innerHtml = sisik + ' x 4';

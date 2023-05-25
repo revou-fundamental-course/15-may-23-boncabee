@@ -32,10 +32,10 @@
             <hr>
             <div class="Footer">
                 <h2>Hitung Luas Persegi</h2>
-                <input class="nilai-l" name="nilai-l" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
+                <input class="sisi-luas" name="sisi-luas" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
                 
                 <!-- Output ??? -->
-                <div class="output-l" name="output-l">
+                <div class="output_luas" name="output_luas">
                     <p class="text-left">L = S x S <br>
                         L = <span id="rumus-l"></span><br>
                         L = <span id="hasil-l"></span>
@@ -43,7 +43,7 @@
                 </div>
                 
                 <div>
-                    <button class="btn-hitung-l" name="hitungl" onclick="hitungl()">Hitung</button>
+                    <button class="btn-hitung-l" name="hitung-luas" onclick="hitungluas()">Hitung</button>
                     <p class="text-right">
                         <input class="btn-reset btn-warning" type="reset" name="reset" onclick="resetLuas(0)"></input>
                     </p>               
@@ -71,10 +71,10 @@
             <hr>
             <div class="Footer">
                 <h2>Hitung Keliling Persegi</h2>
-                <input class="nilai-k" name="nilai-k" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
+                <input class="sisi-keliling" name="sisi-keliling" placeholder="Nilai Sisi" required oninput="validateNumericInput(this)">
                 
                 <!-- Output ??? -->
-                <div class="output-k" name="output-k">
+                <div class="output_keliling" name="output_keliling">
                     <p class="text-left">L = S x S <br>
                         L = <span id="rumus-k"></span><br>
                         L = <span id="hasil-k"></span>
@@ -82,7 +82,7 @@
                 </div>
 
                 <div>
-                    <button class="btn-hitung-k" name="hitungk" onclick="hitungk()">Hitung</button>
+                    <button class="btn-hitung-k" name="hitung-keliling" onclick="hitungk()">Hitung</button>
                     <p class="text-right">
                         <input class="btn-reset btn-warning" type="reset" name="reset" onclick="resetLuas(0)"></input>
                     </p>               

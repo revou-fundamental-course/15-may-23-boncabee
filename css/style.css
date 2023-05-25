@@ -38,11 +38,11 @@
 .footer {
     padding: 20px;
 }
-.output-l, .output-k{
+.output_luas, .output_keliling{
     margin-left: 15px;
     display: none;
 }
-.nilai-l, .nilai-k {
+.sisi-luas, .sisi-keliling {
     padding: 5px;
 }
 .nilai-l:focus, .nilai-k:focus {
